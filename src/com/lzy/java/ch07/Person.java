@@ -27,7 +27,7 @@ public class Person {
      * Say hello to others
      */
     public void sayHello() {
-        System.out.println(this.toString());
+        System.out.println("Hi, my name is " + getName());
     }
 
     public String getName() {

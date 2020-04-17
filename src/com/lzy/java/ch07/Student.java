@@ -53,9 +53,11 @@ public class Student extends Person {
         this.score = score;
     }
 
+
     @Override
     public void sayHello() {
-        System.out.println(super.toString() + "|" + this.toString());
+        super.sayHello();
+        System.out.println("Hi! I am a student, my name is " + getName());
     }
 
     /**
@@ -78,6 +80,7 @@ public class Student extends Person {
     }
 
     public static void main(String[] args) {
+        // Upcasting
         List<Student> students = new ArrayList<>();
 
         // Set score map of students
@@ -92,8 +95,10 @@ public class Student extends Person {
         students.add(new Student("Zhangtao", "F", 21, "LZY", "first grade", score));
         students.add(new Student("Qiansun", "M", 20, "LZY", "first grade", score));
 
-        students.forEach(s -> {
-            System.out.println(s + " avg score = " + s.getAvgScore());
-        });
+        // Print information of all students
+        students.forEach(s -> System.out.println(s + " avg score = " + s.getAvgScore()));
+
+        // Say hello to others.
+        students.get(0).sayHello();
     }
 }
