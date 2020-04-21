@@ -1,4 +1,4 @@
-<h1 align="center" style="color: green">JavaProgramming</h1>
+<h1 align="center">JavaProgramming</h1>
 
 English | [简体中文](./README.zh-CN.md) 
 
