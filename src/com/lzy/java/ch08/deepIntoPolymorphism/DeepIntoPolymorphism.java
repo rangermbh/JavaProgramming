@@ -1,11 +1,11 @@
-package com.lzy.java.ch08.deepIntoPolymorphic;
+package com.lzy.java.ch08.deepIntoPolymorphism;
 
 /**
  * @Author mbh
  * @Date 2020/4/17
- * @Desc A deep understanding of polymorphic
+ * @Desc A deep understanding of polymorphism
  */
-public class DeepIntoPolymorphic {
+public class DeepIntoPolymorphism {
     /**
      * Animal take action
      */
@@ -15,7 +15,7 @@ public class DeepIntoPolymorphic {
     }
 
     public static void main(String[] args) {
-        // TODO: 1.Conditions of polymorphic
+        // TODO: 1.Conditions of polymorphism
         // c1. Do subclasses need to extends superclass?
 
         // c2. Do we need upcasting？
@@ -28,17 +28,18 @@ public class DeepIntoPolymorphic {
         System.out.println(animal.field);
         System.out.println(animal.getField());
 
-        // TODO: 3.Do static fields or static methods show polymorphism? -- only normal method call show polymorphism
+        // TODO: 3.Do static fields or static methods show polymorphism? -- only normal method calls show polymorphism
 
         Animal animal1 = new Bird();
         System.out.println(animal1.staticGet());
+
+        // TODO: 4.What are the disadvantages of polymorphism ？
+
     }
 }
 
 /**
- * @Author mbh
- * @Date 2020/4/17
- * @Desc Super class of all animals
+ * Superclass of all animals
  */
 class Animal {
     public String field = "Field in Animal";
@@ -103,9 +104,13 @@ class Dog extends Animal {
     }
 }
 
+/**
+ * Class Bird
+ */
 class Bird extends Animal {
     public String field = "Field in Bird";
 
+    @Override
     public String getField() {
         return field;
     }

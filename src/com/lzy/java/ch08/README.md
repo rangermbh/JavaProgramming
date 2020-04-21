@@ -1,2 +1,19 @@
 ## 第八章 多态
 
+### 作业一
+
+完成课堂展示的动物例子，在代码标注为TO-DO处完善代码。
+
+![image-20200420105338170](/Users/moubinhao/gitCode/JavaProgramming/src/com/lzy/java/ch08/image-20200420105338170.png)
+
+### 作业二
+
+编写图形类多态的代码，继承关系见下图：
+
+![image-20200420105824931](/Users/moubinhao/gitCode/JavaProgramming/src/com/lzy/java/ch08/image-20200420105824931.png)
+
+### 作业三
+
+思考纯继承和扩展继承中的多态问题并在作业二中展现。比如在Circle类中新增一个自己特有的方法，在向上转型的基础上，怎样调用该方法？调用时遇到的类型转换问题？
+
+

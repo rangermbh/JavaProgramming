@@ -1,4 +1,4 @@
-package com.lzy.java.ch08.polymorphic;
+package com.lzy.java.ch08.polymorphism;
 
 /**
  * @Author mbh
@@ -53,7 +53,10 @@ class Dog extends Animal {
     }
 }
 
-class Polymorphic {
+/**
+ * Test polymorphism
+ */
+class Polymorphism {
 
     /**
      * Cat take action
@@ -83,20 +86,22 @@ class Polymorphic {
     }
 
     public static void main(String[] args) {
-        // 1.Why we need polymorphic? -- Reuse and decouple
+        // 1.Why we need polymorphism? -- Reuse and decouple
 
         // TODO: m1:Take action one by one -- Too many codes
 //        Cat cat = new Cat();
 //        Dog dog = new Dog();
 //        cat.cry();
+//        cat.eat();
 //        dog.cry();
+//        dog.eat();
 
         // TODO: m2:Take action by method -- Too many methods for adding a new subclass
-//        catAction(new Cat());
-//        dogAction(new Dog());
+        catAction(new Cat());
+        dogAction(new Dog());
 
-        // TODO: m3:polymorphic -- Forget about different kinds of subclass, we only need to communication with superclass
-        animalAction(new Cat());
-        animalAction(new Dog());
+        // TODO: m3:polymorphism -- Forget about different kinds of subclass, we only need to communication with superclass
+//        animalAction(new Cat());
+//        animalAction(new Dog());
     }
 }
