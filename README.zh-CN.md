@@ -1,6 +1,6 @@
 <h1 align="center" style="color: green">JavaProgramming</p>
 
-简体中文 | [English](./README.md)
+<h3>简体中文 | [English](./README.md)</h3>
 
 ## 简介
 
