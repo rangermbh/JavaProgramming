@@ -4,13 +4,13 @@
 
 完成课堂展示的动物例子，在代码标注为TO-DO处完善代码。
 
-![image-20200420105338170](/Users/moubinhao/gitCode/JavaProgramming/src/com/lzy/java/ch08/image-20200420105338170.png)
+![image-20200420105338170](image-20200420105338170.png)
 
 ### 作业二
 
 编写图形类多态的代码，继承关系见下图：
 
-![image-20200420105824931](/Users/moubinhao/gitCode/JavaProgramming/src/com/lzy/java/ch08/image-20200420105824931.png)
+![image-20200420105824931](image-20200420105824931.png)
 
 ### 作业三
 
