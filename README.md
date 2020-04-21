@@ -9,7 +9,7 @@ is a teaching project about Java programming, in which you will learn the basic 
 
 ## Prepare
 
-**When you start to use Java, you need to build a java program writing and running environment on your computer, mainly including the settings of JDK, JRE and system environment variables. For details, please visit [official website] (https://www.oracle.com/java/technologies/javase-downloads.html). It should be noted that the JDK version of this project is be 1.8+, otherwise you will lose the opportunity to use the new features.**
+**When you start to use Java, you need to build a java program writing and running environment on your computer, mainly including the settings of JDK, JRE and system environment variables. For details, please visit [official website](https://www.oracle.com/java/technologies/javase-downloads.html). It should be noted that the JDK version of this project is be 1.8+, otherwise you will lose the opportunity to use the new features.**
 
 ## 章节目录
 
