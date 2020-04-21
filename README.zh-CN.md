@@ -34,8 +34,6 @@
 ```bash
 # 克隆项目
 git clone https://github.com/rangermbh/JavaProgramming.git
+```
 # 常用git命令
-## git add.
-## git commit
-## git push
-## git pull
+开发过程中常用的git命令请参考Git官方文档 [Git Doc](https://git-scm.com/docs)
